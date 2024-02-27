@@ -21,6 +21,7 @@ main{
 }
 main > div {
     display: flex;
+    margin-top: 10px;
 }
 header{
     display: flex;
@@ -46,7 +47,9 @@ header{
 .actions, .LastEdited, .place, .DateCreated, .FormName{
     flex: 1;
 }
-
+.actions > img{
+    cursor: pointer;
+}
 
 .roboto-thin {
     font-family: "Roboto", sans-serif;
