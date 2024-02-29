@@ -19,7 +19,7 @@ main{
     padding: 5px;
     
 }
-main > div {
+main > .lista > div {
     display: flex;
     margin-top: 10px;
 }
@@ -50,6 +50,23 @@ header{
 .actions > img{
     cursor: pointer;
 }
+
+.numeros{
+  display: flex;
+}
+.numeros > div{
+  border: 1px solid rgb(175, 163, 163);
+  border-radius: 5px;
+  margin-right: 8px;
+  padding: 8px;
+  cursor: pointer;
+}
+.numeros > div:hover{
+  background-color: rgb(86 80 187);
+  color: white;
+}
+
+/* Estilo texto Roboto */
 
 .roboto-thin {
     font-family: "Roboto", sans-serif;
