@@ -6,7 +6,7 @@ body{
     background-color: #F2F4F6; 
 
 }
-
+/* OPCION DIV's */
 .wrapper-header{
     border: 1px solid #bcbcbc;
     border-radius: 5px;
@@ -68,6 +68,9 @@ header{
 .numeros > div:hover{
   background-color: rgb(86 80 187);
   color: white;
+}
+.color-778CA2{
+  color: #778CA2;
 }
 
 /* Estilo texto Roboto */
