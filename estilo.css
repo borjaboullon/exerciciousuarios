@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-   /* background-color: #98a9bc; */
+    background-color: #F2F4F6; 
 
 }
 
@@ -14,14 +14,16 @@ body{
 }
 main{
     margin-top: 15px;
-    border: 1px solid #778ca2;
-    border-radius: 15px;
     padding: 5px;
     
 }
 main > .lista > div {
     display: flex;
     margin-top: 10px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    align-items: center;
 }
 header{
     display: flex;
@@ -49,10 +51,12 @@ header{
 }
 .actions > img{
     cursor: pointer;
+    width: 16px;
 }
 
 .numeros{
   display: flex;
+  margin-top: 30px;
 }
 .numeros > div{
   border: 1px solid rgb(175, 163, 163);
@@ -139,4 +143,18 @@ header{
     font-weight: 900;
     font-style: italic;
   }
-  
+
+
+
+
+.rubik {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+.tamaño-12{
+  font-size: 12px;
+}
