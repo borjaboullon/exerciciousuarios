@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-color: #F2F4F6; 
+    background-color: aliceblue; 
 
 }
 header{
@@ -11,19 +11,21 @@ header{
   align-items: center;
 }
 .actions{
-  border: 1px solid black;
+  border: 0px solid black;
     padding: 20px;
     background-color: aliceblue;
     margin: 5px;
 }
 .actions > img{
-  border: 1px solid black;
+  border: 0px solid black;
 }
 .lista{
-  border: 2px solid red;
+  border: 2px solid black;
   justify-content: space-around;
   display: flex;
   align-items: center;
+  margin: 5px;
+  border-radius: 10px;
 }
 
 .logo{
