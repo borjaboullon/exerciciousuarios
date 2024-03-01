@@ -10,25 +10,39 @@ header{
   display: flex;
   align-items: center;
 }
-.flex-01{
-  flex: 0.1;
+.actions{
+  border: 1px solid black;
+    padding: 20px;
+    background-color: aliceblue;
+    margin: 5px;
 }
-.flex-05{
-  flex: 0.05;
+.actions > img{
+  border: 1px solid black;
 }
-input{
-  border:none;
+.lista{
+  border: 2px solid red;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
 }
+
 .logo{
   margin-left: auto;
 }
-
-.imaxenAxuste{
-    display: flex;
-    width: 20px;
-    align-items: center;
-    flex: 1;
+input{
+  border: none;
+  background-color: inherit;
+  text-align: center;
 }
-.wrapper-header{
-  
+.perfil{
+  display: flex;
+  flex-basis: 150px;
+  justify-content: space-between;
+  align-items: center;
+}
+.campana{
+  width: 20px;
+}
+.ajustes{
+  width: 25px;
 }
