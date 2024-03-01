@@ -46,3 +46,15 @@ input{
 .ajustes{
   width: 25px;
 }
+.imaxenaxustes{
+  display: flex;
+    align-items: center;
+    flex-basis: 235px;
+    border: 1px solid black;
+    justify-content: space-between;
+}
+.perfil-axustes{
+  display: flex;
+    flex-basis: 500px;
+    justify-content: space-between;
+}
