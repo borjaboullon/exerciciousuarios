@@ -15,6 +15,7 @@ header{
     padding: 20px;
     background-color: aliceblue;
     margin: 5px;
+    cursor: pointer;
 }
 .actions > img{
   border: 0px solid black;
@@ -48,6 +49,7 @@ input{
 }
 .ajustes{
   width: 25px;
+  cursor: pointer;
 }
 .imaxenaxustes{
   display: flex;
@@ -62,7 +64,6 @@ input{
     justify-content: space-between;
 }
 .wrapper-main{
-  margin-top: 30px;
 }
 .numeros{
   display: flex;
@@ -86,4 +87,9 @@ input{
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.titulos{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
 }
