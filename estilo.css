@@ -93,3 +93,9 @@ input{
   justify-content: space-around;
   margin-top: 30px;
 }
+.admin{
+  color: #4D7CFE;
+}
+.nome{
+  background-color: aliceblue;
+}
