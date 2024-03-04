@@ -35,6 +35,7 @@ input{
   border: none;
   background-color: inherit;
   text-align: center;
+  cursor: pointer;
 }
 .perfil{
   display: flex;
@@ -62,4 +63,27 @@ input{
 }
 .wrapper-main{
   margin-top: 30px;
+}
+.numeros{
+  display: flex;
+  width: 30vw;
+  justify-content: space-evenly;
+  border: 0.2px solid gray;
+  border-radius: 5px;
+  align-items: center;
+  cursor: pointer;
+}
+.numeros > div:hover{
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color:#4D7CFE ;
+  color: #f8fbfd;
+  
+}
+.numeros > div{
+  width: 32px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
