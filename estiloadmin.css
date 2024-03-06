@@ -44,3 +44,27 @@ header{
     width: 400px;
     justify-content: space-around;
 }
+.lista{
+    border: 2px solid black;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    border-radius: 10px;
+}
+.perfiles{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    width: 100%;
+    margin-top: 1rem;
+    border-collapse: collapse;
+    text-align: center;
+  }
+  td,
+  th {
+    border: 1px solid black;
+  }
