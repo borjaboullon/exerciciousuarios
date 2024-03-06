@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: aliceblue; 
+}
+header{
+  display: flex;
+  align-items: center;
+}
+.perfil-axustes{
+    display: flex;
+}
+.nome{
+    background-color: aliceblue;
+}
+.admin{
+    color:#4D7CFE ;
+}
+.perfil{
+    display: flex ;
+    align-items: center;
+}
+.logo{
+    margin-left: auto;
+}
+.titulos{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.imaxenaxustes{
+    display: flex;
+    align-items: center;
+    flex-basis: 235px;
+}
+.perfil-axustes{
+    width: 600px;
+    justify-content: space-between;
+}
+.buscador{
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+}
