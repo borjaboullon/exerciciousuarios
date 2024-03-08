@@ -4,12 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/rexistro.css">
+    <link rel="stylesheet" href="./css/logueo.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
 </head>
 <body>
     
-<div>
+<div  class="wrapper-menu">
     <a href="./home.html">home</a>
     <a href="./rexistro.html">rexistro</a>
+</div>
+<main>
+    <div>
+        <img class="escudo" src="./imagenes/image.png" alt="escudo depor"/>
+    </div>
+    <div class="wrapper-form">
+        <div>
+            <h3 class="titulo-form">Log in to your account</h3>
+        </div>
+        <form action="/my-handling-form-page" method="post">
+            <ul>
+              <li>
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="user_name"  placeholder="Introduce o teu nome"/>
+              </li>
+              <li>
+                <label for="pwd">Introduce o teur pwd</label>
+                <input type="password" id="pwd" name="user_mail" placeholder="Introduce o teu password"/>
+              </li>
+              <li>
+                <button type="submit" >Loguéate</button>
+              </li>
+            </ul>
+          </form>
+    </div>
+</main>
+
+
 </body>
 </html>
